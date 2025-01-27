@@ -1,4 +1,4 @@
-# Search for any existing GitHub user's profile information with fetch, GET requests, and Github REST API
+# Initial layout
 
 <img width="629" alt="Screenshot 2025-01-27 at 1 43 44 PM" src="https://github.com/user-attachments/assets/6a2fe623-d2c2-47ef-9d4f-c127666117f3" />
 
