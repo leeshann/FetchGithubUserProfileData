@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GitHub User LookUp</title>
+</head>
+<body>
+    <h3>Enter a github username to view its profile information</h3>
+    <main>
+        <div id="container">
+            <form action="https://httpbin.org/get" method="get">
+                <label for="username">Username: </label>
+                <input type="text" name="username" id="username" required>
+                <input type="button" value="Submit" id="submit">
+            </form>
+        </div>
+
+        <div id="child"></div>
+
+    </main>
+
+    <script src="listeners.js"></script>
+</body>
+</html>
